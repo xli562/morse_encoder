@@ -16,7 +16,7 @@ entity morse_encoder is
         TIMER_WIDTH    : natural   := 2;
         TIMER_START_AT : natural   := 3;
         CLK_WIDTH      : natural   := 27;
-        HALF_CLK_FREQ  : natural   := 25--000000
+        HALF_CLK_FREQ  : natural   := 25000000
     );
     port (
         clk_i   : in  std_logic;
